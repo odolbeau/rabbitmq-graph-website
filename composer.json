@@ -3,9 +3,10 @@
     "description": "Simple webiste useing the rabbitmq-graph lib.",
     "license": "MIT",
     "require": {
-        "php":         		   ">=5.3.3",
-        "silex/silex": 		   "dev-master",
-	"odolbeau/rabbitmq-graph": "~1.0"
+        "php":                     ">=5.3.3",
+        "silex/silex":             "dev-master",
+        "twig/twig":               "dev-master",
+        "odolbeau/rabbitmq-graph": "~1.0"
     },
     "autoload": {
         "psr-0": {
