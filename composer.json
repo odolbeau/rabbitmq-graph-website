@@ -6,7 +6,8 @@
         "php":                     ">=5.3.3",
         "silex/silex":             "dev-master",
         "twig/twig":               "dev-master",
-        "odolbeau/rabbitmq-graph": "~1.0"
+        "monolog/monolog":         "dev-master",
+        "odolbeau/rabbitmq-graph": "dev-master"
     },
     "autoload": {
         "psr-0": {
