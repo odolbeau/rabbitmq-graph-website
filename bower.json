@@ -1,0 +1,14 @@
+{
+  "name": "rabbitmq-graph-website",
+  "version": "1.0.0",
+  "main": "web/css/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "jquery.graphviz": "goinnn/jquery.graphviz",
+    "bootstrap": "~3.0.2"
+  }
+}

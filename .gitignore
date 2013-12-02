@@ -1,3 +1,4 @@
 cache
 logs
 vendor
+web/bower_components
