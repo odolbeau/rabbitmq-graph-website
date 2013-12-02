@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/bower_components/jquery.graphviz/source/releases/0.0.1/jquery.graphviz.0.0.1.css">
         <!-- Custom styles for this template -->
         <link rel="stylesheet" href="/css/jumbotron-narrow.css">
     </head>
@@ -49,8 +50,16 @@
 
 
     <script src="/bower_components/jquery/jquery.min.js"></script>
+    <script src="/bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/bower_components/jquery.graphviz/source/relreases/0.0.1/jquery.graphviz.0.0.1.min.js"></script>
+    <script src="/bower_components/jquery.graphviz/source/releases/0.0.1/jquery.graphviz.0.0.1.min.js"></script>
+    <script type="text/javascript">
+        (function($){
+            $(document).ready(function () {
+                $("svg").graphviz({statusbar: true});
+            });
+        })(jQuery);
+    </script>
   </body>
 </html>
 

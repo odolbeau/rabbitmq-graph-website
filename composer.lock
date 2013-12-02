@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4481904b08824a482b61b61ad24c9df6",
+    "hash": "9b0d8149a4bc53fd3e0990fbed03c3d8",
     "packages": [
         {
             "name": "alom/graphviz",
@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "6f5b3d2a9c63a857d40d200f1bb9f62991c07bf8"
+                "reference": "5ad421d6a1d5d7066a45b617e5164d309c4e2852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6f5b3d2a9c63a857d40d200f1bb9f62991c07bf8",
-                "reference": "6f5b3d2a9c63a857d40d200f1bb9f62991c07bf8",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5ad421d6a1d5d7066a45b617e5164d309c4e2852",
+                "reference": "5ad421d6a1d5d7066a45b617e5164d309c4e2852",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-11-25 13:58:14"
+            "time": "2013-12-02 09:38:32"
         },
         {
             "name": "odolbeau/rabbitmq-graph",
@@ -570,6 +570,53 @@
             "time": "2013-11-14 07:58:51"
         },
         {
+            "name": "symfony/process",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "4d0f32a1b595204f5c370b46f385d11a97b8d1f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/4d0f32a1b595204f5c370b46f385d11a97b8d1f9",
+                "reference": "4d0f32a1b595204f5c370b46f385d11a97b8d1f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-26 16:42:52"
+        },
+        {
             "name": "symfony/routing",
             "version": "v2.3.7",
             "target-dir": "Symfony/Component/Routing",
@@ -688,6 +735,7 @@
         "silex/silex": 20,
         "twig/twig": 20,
         "monolog/monolog": 20,
+        "symfony/process": 20,
         "odolbeau/rabbitmq-graph": 20
     },
     "platform": {

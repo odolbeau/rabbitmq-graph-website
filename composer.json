@@ -7,6 +7,7 @@
         "silex/silex":             "dev-master",
         "twig/twig":               "dev-master",
         "monolog/monolog":         "dev-master",
+        "symfony/process":         "dev-master",
         "odolbeau/rabbitmq-graph": "dev-master"
     },
     "autoload": {
